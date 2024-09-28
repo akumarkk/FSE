@@ -43,11 +43,23 @@ to apply style and arrange web content.
     iii. class (.) [0,1,0]
     iv. ele sel(ele) []
     v. attr sel(ele[attr/=]) []
+        
+        attr begin with sel attr$="val"
+        attr ends with selector attr^="val"
+        attr contains sel attr*="val"
+    
+    vi. descendant(ele1 ele11 .class #id)
+        dev p.text
+        select all descendants of a particular ancestor regardless of their depth in the hierarchy.
     vi. par ch(p>c)
-    vii. descendant()
-    viii. psuedoelement(ele:first-child)
+    vii. sibling a1+a2
+            adj sibling a1+a2
+         general sibling a1 ~a2
+    viii. 
+    iX. psuedoelement(ele:first-child)
         psuedoclass(::)
         psuedoele(:)
+    X.
 
 
     : psu

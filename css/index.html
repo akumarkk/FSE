@@ -8,8 +8,8 @@
         color: blue;
     }
 
-    h2[attr="a1"] { 
-        color: blue
+    h2[attr$="a1"] { 
+        color: rgb(4, 4, 105)
     }
 
     
@@ -17,13 +17,23 @@
     color: burlywood
     }
 
-    ul:last-child {
+    li:nth-child(4) {
         color: blue;
     }
+
+    h1 + h2 {
+        color: rgb(135, 222, 197)
+    }
+    
 </style>
-<link rel="stylesheet" href="./css/index.css">
+<!-- <link rel="stylesheet" href="./css/index.css"> -->
 <body>
-    <h2 attr="a1" style="font-display:initial  ">
+    <h1> welcome to css styles!!!</h1>
+    <h2 attr="a91" style="font-display:initial  ">
+        welcome to css a91!!!
+    </h2>
+    
+    <h2 attr="a1a1" style="font-display:initial  ">
         welcome to css!!!
     </h2>
     <h1> welcome to css styles!!!</h1>

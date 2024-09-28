@@ -43,8 +43,14 @@ to apply style and arrange web content.
     iii. class (.) [0,1,0]
     iv. ele sel(ele) []
     v. attr sel(ele[attr/=]) []
-    vi. 
+    vi. par ch(p>c)
+    vii. descendant()
+    viii. psuedoelement(ele:first-child)
+        psuedoclass(::)
+        psuedoele(:)
 
+
+    : psu
 
 #### inheritenace
 

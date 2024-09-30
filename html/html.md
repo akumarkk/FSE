@@ -31,3 +31,24 @@ ii. non semantic/content - div/span - stylying.
 
 i. open/close tags(p)
 ii. self-closing tags(meta, img etc)
+
+##### frameworks
+Angular - updates real dom vs virtual dom
+
+##### elements
+i. Block level elements - always start in new line and accupy the entire width of line.
+    <h1>
+
+
+
+
+ii. Inline elements - always start from the same line.
+    <div>
+    <span>
+    
+
+section - section within doc
+nav     - nav bar using ol/li.
+header  - header section of doc.
+ul, li  - unordered list
+ol, li  - ordered list

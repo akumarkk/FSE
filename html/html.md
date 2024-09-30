@@ -42,13 +42,32 @@ i. Block level elements - always start in new line and accupy the entire width o
 
 
 
-ii. Inline elements - always start from the same line.
+ii. Inline elements - always start from the same line and takes only space required by the content.
     <div>
     <span>
-    
+
+ - display parameter can be used to set display(block/inline) of elements irrespective of default beh.
+ - attributes - can be used to add extra info. to particular elements.
+    class
+    id
+    i. global attr
+    ii. element spec. attr
+
+
+
+##### layout
+- an <h1>, multiple <h2>, and multiple <h3>
 
 section - section within doc
 nav     - nav bar using ol/li.
 header  - header section of doc.
-ul, li  - unordered list
+ul, li  - unordered list(ul>li*6)
 ol, li  - ordered list
+table   - <thead> <tbody> <tr> <th> <td>
+form    - label, input
+
+###### proj
+-  css
+-  assets
+- js
+- index.html

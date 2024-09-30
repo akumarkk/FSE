@@ -19,8 +19,15 @@ First Content area/visible area/above the fold.
 ##### tags
     !110 tags
 
-i. semantic
-ii. content
+i. semantic - HTML markup to reinforce the semantics, or meaning, of the information in web pages and web applications rather than merely to define its presentation or look.
+    article
+    header
+    main
+    section
+    p
+    etc...
+    - used by SEO for the role of tags/content
+ii. non semantic/content - div/span - stylying.
 
 i. open/close tags(p)
 ii. self-closing tags(meta, img etc)

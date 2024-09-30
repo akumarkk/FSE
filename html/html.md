@@ -11,5 +11,16 @@ The English prefix "hyper-" comes from the Greek prefix "ὑπερ-" and means "
 Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch.
 
 ##### Html
-    Sir Timothy John Berners-Lee 
-    known as the inventor of the World Wide Web, the HTML markup language, the URL system, and HTTP.
+    Sir Timothy John Berners-Lee also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web, the HTML markup language, the URL system, and HTTP.
+
+##### terms
+First Content area/visible area/above the fold.
+
+##### tags
+    !110 tags
+
+i. semantic
+ii. content
+
+i. open/close tags(p)
+ii. self-closing tags(meta, img etc)

@@ -14,4 +14,14 @@
     - grid-auto-rows, grid-auto-columns - defines the size implicitely (px | minmax| auto).
     - justify-items content - align grid items along rows - start|end|stretch inline | 
     - align-items content - align grid items along cols - start|end|stretch inline |
-    - justify-content/align-content content space-evenly|space-around |  
+    - justify-content/align-content content space-evenly|space-around |
+
+###### flexbox vs grid
+- either flexbox/grid
+-  flexbox is 1d and grid is2d 
+- flexbox either in row/col, grid row&col
+- flexbox display:flex, justify-content, align-content
+    - grid display:grid,grid-template-area, grid-area, grid-template-rows, grid-template-columns,    justify-content, align-content
+- 
+
+###### breakpoints

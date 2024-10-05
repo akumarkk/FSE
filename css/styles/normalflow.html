@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>normal flow</title>
+</head>
+<body>
+    <header>
+        <h1>normal flow doc - Python Packaging User Guide</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>
+                Installing from PyPI
+            </h2>
+        <p>
+            python3 -m pip install "SomeProject"
+        </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>
+                Requirements files
+            </h2>
+        <p>
+            python3 -m pip install -r requirements.txt
+        </p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>
+                Installing from VCS
+            </h2>
+        <p>
+            python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
+        </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>
+                Installing from Indexes
+            </h2>
+        <p>
+            python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
+            python3 -m pip install --index-url http://my.package.repo/simple/ SomeProject
+        </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>
+                Installing from a local src tree
+            </h2>
+        <p>
+            python3 -m pip install -e <path>
+            python3 -m pip install <path>
+        </p>
+        </article>
+    </section>
+</body>
+</html>

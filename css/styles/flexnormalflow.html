@@ -21,11 +21,22 @@
             text-align: center;
             /* line-height: 100px; */
         }
+        section {
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap:wrap;
+            align-items: flex-end;
+            justify-content: flex-end;
+            gap: 30px 20px
+        }
 
         article {
             background-color: aqua;
             margin:10px;
             padding:10px;
+            flex-grow: 1 ;
+            /* flex: 1 1 10%; */ /* comment to see the effect of  align-items/justify-content*/ 
+            
         }
     </style>
     
@@ -40,45 +51,47 @@
             <h2>
                 Installing from PyPI
             </h2>
-        <p>
-            python3 -m pip install "SomeProject"
-        </p>
+            <p>
+                python3 -m pip install "SomeProject"
+            </p>
         </article>
         <article>
             <h2>
                 Requirements files
             </h2>
-        <p>
-            python3 -m pip install -r requirements.txt
-        </p>
+            <p>
+                python3 -m pip install -r requirements.txt
+            </p>
         </article>
         <article>
             <h2>
                 Installing from VCS
             </h2>
-        <p>
-            python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
-        </p>
+            <p>
+                python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
+            </p>
         </article>
         <article>
             <h2>
                 Installing from Indexes
             </h2>
-        <p>
-            python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
-            python3 -m pip install --index-url http://my.package.repo/simple/ SomeProject
-        </p>
+            <p>
+                python3 -m pip install -e SomeProject @ git+https://git.repo/some_pkg.git
+                python3 -m pip install --index-url http://my.package.repo/simple/ SomeProject
+            </p>
         </article>
         <article>
             <h2>
                 Installing from a local src tree
             </h2>
-        <p>
-            python3 -m pip install -e <path>
-            python3 -m pip install <path>
-        </p>
+            <p>
+                python3 -m pip install -e <path>
+                    python3 -m pip install <path>
+            </p>
         </article>
     </section>
+    
+
     
 </body>
 </html>

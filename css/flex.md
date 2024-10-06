@@ -36,7 +36,9 @@ flex-item properties:
 - flex-grow - proportion of space by each flex-item;
     5 items = flex-grow 1 = 1000/5 = 200px
     5 items = flex-grow 1; flex-grow:nth-child(5) 2 = 4 + 2 = 6 = 1000px/6 = 4 flex-items 166.666666666666667px 5th = 333.333333333333367
-- flex-grow: 0 .flex-container div:nth-child(5) content width, nonzero items gets proportion; 4*24(8 content, 10 padding, 4 borader, 2 margin) = 96; 1000px-96px = 904px => 5th ele. 
+- flex-grow: 0 .flex-container div:nth-child(5) content width, nonzero items gets proportion; 4*24(8 content, 10 padding, 4 borader, 2 margin) = 96; 1000px-96px = 904px => 5th ele.
+- order :flex-item default order 0, flex-item order(1) moved to end, arranged according to order of each flex-items.
+-   
 
 
 

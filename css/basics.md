@@ -59,3 +59,10 @@ non-inheritable properties could be inherited by specifying "inherit".
 - to have the image and the text next to each other. float image.
 
 
+###### box-shadow
+- box-shadow : x-offset y-offset blur-radius spread-radius color;
+
+
+###### Stacking order and z-index
+- z-index wraps/stacks ele with corresponding z-index values.
+

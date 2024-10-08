@@ -40,4 +40,14 @@ below properties are inherited from the nested ele:
 non-inheritable properties could be inherited by specifying "inherit".
 
 
+###### Position
+- control the ele within it's containing ele.
+- static | relative | absolute | sticky| fixed
+- used in chat control, icon display using fixed.
+- navbar position:sticky;
+
+- absolute : top, right, bottom, left relative to the containing/ancestor postion element.
+- relative : follows normal flow of doc; top, right, bottom, left relative to where it is or it's actual position!.
+
+
 

@@ -50,4 +50,12 @@ non-inheritable properties could be inherited by specifying "inherit".
 - relative : follows normal flow of doc; top, right, bottom, left relative to where it is or it's actual position!.
 
 
+###### overflow
+- div content overflow outside the div.
+- overflow : hidden | visible | scroll; hide the overflow content, scroll the content or make it visible.
+- 
+
+###### float
+- to have the image and the text next to each other. float image.
+
 

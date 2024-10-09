@@ -1,0 +1,14 @@
+{
+  "name": "sreappnpm",
+  "version": "1.0.0",
+  "description": "SRE toolset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sretoolset"
+  ],
+  "author": "Anil K",
+  "license": "ISC"
+}
